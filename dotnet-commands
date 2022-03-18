@@ -1,0 +1,8 @@
+# Para criar o arquivo de manifesto que a solution necessita para ser compilada
+dotnet new tool-manifest
+
+# Comando para instalar a tool no arquivo manifesto
+dotnet tool install Cake.Tool
+
+# Comando para executar a ferramenta cake
+dotnet tool run dotnet-cake ou dotnet dotnet-cake
