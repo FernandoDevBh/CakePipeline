@@ -2,7 +2,7 @@
 
 var target = Argument("target", "Docker Up");
 var configuration = Argument("configuration", "Release");
-var solutionFolder = "./CloudCustomers.sln";
+var solutionFolder = "./CakePipeline.sln";
 var outputFolder = "./artifacts";
 var testProjects = "**/*.csproj";
 
